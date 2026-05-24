@@ -1,0 +1,19 @@
+= Session 066 — Mise à jour Gradle 9.3.0 → 9.5.1
+:session: 066
+:date: 2026-05-25
+:status: TERMINÉ
+
+== Résumé
+
+Mise à jour de la version de Gradle de 9.3.0 à 9.5.1 pour bénéficier des dernières corrections et améliorations.
+
+== Actions réalisées
+
+1. ✅ Mise à jour du fichier gradle/wrapper/gradle-wrapper.properties
+2. ✅ Passage de Gradle 9.3.0 à 9.5.1
+
+== Justification
+
+La mise à jour de Gradle permet de bénéficier des dernières améliorations de performance, corrections de bugs et support des dernières fonctionnalités du langage Kotlin et de l'écosystème Gradle.
+
+Cette mise à jour est nécessaire pour maintenir la compatibilité avec les autres projets du workspace qui utilisent déjà cette version de Gradle.
