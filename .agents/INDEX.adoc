@@ -5,8 +5,8 @@ _Regles absolues_ : voir `AGENT.adoc`
 _Ontologie spatiale_ : voir `configuration/.agents/AGENT_GOVERNANCE.adoc`
 
 _Derniere mise a jour_ : 2026-05-05
-_Session en cours_ : 4 — POC Dashboard : premiere cellule notebook qui loggue
-_Sessions terminees_ : 001 (planification), 002 (point charniere), 003 (analyse + architecture)
+_Session en cours_ : 5 — à définir (projet VESTIGE, probablement jamais)
+_Sessions terminees_ : 001 (planification), 002 (point charniere), 003 (analyse + architecture), 004 (borough-isation VESTIGE LA HAVANA 🇨🇺)
 
 '''
 == REGLES ABSOLUES (resume)
@@ -22,6 +22,7 @@ _Sessions terminees_ : 001 (planification), 002 (point charniere), 003 (analyse 
 
 |===
 | # | Date | Type | Sujet | Score
+| 004 | 2026-06-02 | governance | Borough-isation VESTIGE — notebook-gradle devient LA HAVANA 🇨🇺 | 8/10
 | 001 | 2026-05-05 | init (planif) | Planification et initialisation notebook-gradle | ✅
 | 002 | 2026-05-05 | architecture | Point Charniere design-time/runtime + EPIC 8 Dashboard CI/CD | ✅
 | 003 | 2026-05-05 | analyse + architecture | Analyse dashboard, recalibrage produit, modele eco, architecture Docker Ollama + LangChain4j/LangGraph4j | ✅

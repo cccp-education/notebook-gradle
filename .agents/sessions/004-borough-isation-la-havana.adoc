@@ -1,0 +1,66 @@
+= Session 004 — Borough-isation VESTIGE : notebook-gradle devient LA HAVANA 🇨🇺 (governance)
+:toc: left
+:sectnums:
+:icons: font
+
+== Contexte
+
+*Projet* : notebook-gradle
+*Session précédente* : 003 — Analyse dashboard + architecture (2026-05-05) + session 066 (MAJ Gradle)
+*État entrée* : Cadrage uniquement (architecture 424 lignes, backlog 8 EPICs). ZÉRO code source implémenté. Vestige dans foundry/public/.
+
+Mission : marquer officiellement le statut VESTIGE du borough LA HAVANA. Aucune modification de code source.
+
+== État Initial
+
+*Build* : Non applicable (projet sans code source implémenté)
+*Tests* : Non applicables
+*Gouvernance* : .agents/ à la racine (pas de sous-dossier plugin). AGENT.adoc + INDEX.adoc + SESSIONS_HISTORY.adoc
+
+== Actions
+
+=== Marqueur VESTIGE officiel
+
+. Attribué l'identité borough : *LA HAVANA 🇨🇺* (VESTIGE — Observabilité Google Colab → Sheets → IA)
+. Statut confirmé dans la taxonomie workspace (AGENTS.adoc racine)
+. Aucun code source modifié — seuls les fichiers `.agents/` impactés
+
+=== Session report
+
+. Créé ce fichier `004-borough-isation-la-havana.adoc`
+. Mise à jour `INDEX.adoc` (session 005 à venir)
+. Mise à jour `SESSIONS_HISTORY.adoc`
+
+== État Final
+
+*EPICs* (8/8 restent À FAIRE) :
+- EPIC 1 : Planification et initialisation — TERMINE (sessions 001-003) ✅
+- EPIC 2 à EPIC 8 : Tous À FAIRE — abandonnés
+
+*Décision* : Projet vestige. Architecture cadrée (424 lignes, 8 EPICs) = référence conceptuelle réutilisable pour le pattern observabilité. Code source jamais implémenté. Conserver le cadrage, arrêter le développement.
+
+== Build & Tests Finaux
+
+*Build* : Non applicable
+*Tests* : Non applicables
+
+== Prochaine Session
+
+*Priorité* : 🔴 005 — probablement jamais ouverte.
+
+Si néanmoins ouverte :
+. Auditer la viabilité du cadrage vs roadmap 2026
+. Décision GO/NOGO sur le passage au code
+
+== Métriques de Session
+
+|===
+| Métrique | Valeur
+| Durée | ~10 minutes (création rapport + MAJ INDEX/HISTORY)
+| Fichiers créés | 1 (archive session)
+| Fichiers modifiés | 2 (INDEX.adoc, SESSIONS_HISTORY.adoc)
+| Lignes gouvernance ajoutées | ~80
+| Score auto-évalué | 8/10
+|===
+
+*Note* : Score 8/10 car tâche simple de gouvernance (borough-isation = étiquetage VESTIGE), exécutée proprement. Aucune régression.
