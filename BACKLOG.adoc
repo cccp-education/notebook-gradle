@@ -390,3 +390,41 @@ Avec lui, les logs deviennent des commandes.
 | A FAIRE
 | P0 🔴
 |===
+
+'''
+
+== EPIC PUB — Publication Maven Central + Plugin Portal
+
+_Source : configuration/EPIC_PUB.adoc (Session 096)_
+
+=== PUB-2.2 — Mettre a jour le commentaire relocation
+
+Dans le `build.gradle.kts`, remplacer :
+```kotlin
+// RELOCATION : prepare la migration du groupId education.cccp →
+// <futur-domaine>. Activer avec -Prem relocationGroup="io.github.cccp-education"
+// Effet : injecte <distributionManagement><relocation><groupId>...</groupId></relocation>
+// dans le POM publie. Les consommateurs existants seront rediriges automatiquement
+// vers le nouveau groupId lors de la prochaine maj de dependance.
+```
+Par :
+```kotlin
+// RELOCATION : garde comme echappatoire future.
+// Activable avec -Prem relocationGroup="<futur-namespace>"
+```
+
+=== PUB-3.17 — notebook-plugin
+
+*Artefact* : `education.cccp.notebook` + `education.cccp:notebook-plugin`
+
+```bash
+cd foundry/public/notebook-gradle && ./gradlew publish closeAndRelease
+```
+
+=== PUB-5.17 — Verification
+
+.Verification Maven Central
+
+| Artefact | URL |
+|---|---|
+| notebook-plugin | https://central.sonatype.com/artifact/education.cccp/notebook-plugin |
