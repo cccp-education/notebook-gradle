@@ -69,3 +69,4 @@ _Sessions terminees_ : 001 (planification), 002 (point charniere), 003 (analyse 
 Notebook-gradle apparait dans :
 - `codebase-gradle/.agents/INDEX.adoc` ✅
 - `configuration/.agents/AGENT_GOVERNANCE.adoc` (a faire)
+

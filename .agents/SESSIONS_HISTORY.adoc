@@ -28,3 +28,4 @@
 | Analyse pro/cons dashboard spreadsheet, recalibrage produit, modele eco, architecture Docker Ollama + LangChain4j/LangGraph4j, evolution cockpit par onglets
 | ✅
 |===
+
